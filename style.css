@@ -1,0 +1,82 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 2;
+	color:black; 
+	background:ghostwhite; 
+	margin: 100; 
+	padding: 10;
+	}
+p { 
+	margin-top: 0; 
+    text-align: center;
+    font-size: 35px;
+    color: black;
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: yellow;
+	font-size: 35px;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+    color: red;
+    font-size: 25px;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: dotted; 
+	color: orange;
+    font-size: 25px;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: rgb(87, 23, 226);
+    font-size: 25px;
+	}
+	h1 { 
+		margin-left: 100px;
+		display: block;
+		font-size: 45px;
+		font-weight: bold;
+		color: chartreuse ;
+		text-decoration: underline;
+		text-decoration-color: lightgreen;
+		}
+h4{
+	margin: 30px;
+		margin-left: 100px;
+		display: block;
+		font-size: 45px;
+		font-family: sans-serif;
+		color: red;
+}
+.head *{
+    margin-left:100px;
+	font-size: 40px;
+	text-align: unset;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+
+}
+.head h1{
+	text-align: center;
+	color: grey;
+
+}
+
+.calculator{
+	border-left: solid;
+}
+
+.categories{
+	display: flex;
+	flex-wrap: wrap;
+	border: solid;
+}
